@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+        <title>Personal Portofolio - Moch. Devan Putra U A</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" alt="logo" width="200px" height="100px">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portofolio">Portofolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                <path
+                                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                            </svg>
+                        </ul>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                        </svg>
+                </nav>
+            <div class="header-text">
+                <p class="text-header">Welcome To My Portofolio</p>
+                <h1>Hi, I'm <span>Devan</span> From <span><br>Indonesia</span></h1>
+            </div>
+            </div>  
+        </div>
+        <!-------------------- About Section----------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/devanimg.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="sub-title-description">&nbsp&nbsp&nbsp&nbsp Hello, My Name Moch Devan Putra Utomo Adi, My nickname is Devan. Born on July 22, 2004 in The city of
+                        Krian, Sidoarjo. Currently residing at Perum Jatikalang Block A11 Number 10 RT 25 RW 05, Krian, Sidoarjo. From Graduated in
+                        Telecommunications Access Network Engineering from SMK Telkom Sidoarjo. Having experience in IT Support as a
+                        System/Network Technician intern for 6 months. Understand all programming languages and be certified in the use of
+                        Mikrotik. Able to operate computer software such as configuration and maintenance.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Network Engineering</span><br>Internet Network Software Configuration and Hardware Installation.</li>
+                                <li><span>Desaign Graphics</span><br>Design Some Illustrations, Logos, Banners, And Post Photos.</li>
+                                <li><span>Web Design</span><br>Designing an illustration for a website page.</li>
+                                <li><span>Photographer</span><br>Capture moments in the form of photos using a digital camera with photo editing techniques.</li>
+                                <li><span>Videographer</span><br>Capture moments in the form of video using a digital camera with video editing techniques.</li>
+                            </ul>
+                        </div>
+
+                        <!---- Tab Experience ----->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021</span><br>Certificate for 3rd Place in the Photography Contest By SMK Telkom Sidoarjo.</li>
+                                <li><span>2021</span><br>Participant of the Photography Competition By 3rd Anniversary Telkom Surabaya Institute of Technology.</li>
+                                <li><span>2022</span><br>Participant of the Cyber Security And IoT Olympiad By HMIT-ITS.</li>
+                                <li><span>2022</span><br>Certified Network Associate (MTCNA) Mikrotik Training By Axelbit Surabaya.</li>
+                                <li><span>2022</span><br>Mikrotik Certified Routing Engineer (MTCRE) Training By Axelbit Surabaya.</li>
+                                <li><span>2022</span><br>Internship By IT Support In Axelbit Surabaya.</li>
+                                <li><span>2022</span><br>Junior Network Administrator Certification By Telkom Digi Up.</li>
+                            </ul>
+                        </div>
+                        
+                        <!---- Tab Education ----->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2020 - 2023</span><br>SMK Telkom Sidoarjo.</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--------Service--------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <a><img src="logo/NA.png" width="50px" height="50px"></a> <!---PAKAI LINK ONLINE AJA-->
+                        <h2>Network Engineering</h2>
+                        <p>Designing and configuring an internet network topology that functions as a network specialist or network analysis is
+                        also responsible On the security of the network and to assign an internet address to each device.</p>
+                        <a href="port-network.html">Learn more</a>
+                    </div>
+                    <div>
+                        <a><img src="logo/DG.png" width="50px" height="50px"></a><!---PAKAI LINK ONLINE AJA-->
+                        <h2>Design Graphics</h2>
+                        <p>Designing and Creating a visual element, such as typography, photography, and illustration. With
+                        The goal is that the audience can understand the message conveyed in the graphic.</p>
+                        <a href="port-designgraphics.html">Learn more</a>
+                    </div>
+                    <div>
+                        <a><img src="logo/DW.png" width="50px" height="50px"></a><!---PAKAI LINK ONLINE AJA-->
+                        <h2>Web Design</h2>
+                        <p>Design and Create a design element in the website that will be used. (Layouts,
+                        Site Map, Navigation, Color, Visual).</p>
+                        <a href="port-webdesign.html">Learn more</a>
+                    </div>
+                    <div>
+                        <a><img src="logo/foto.png" width="50px" height="50px"></a>
+                        <!---PAKAI LINK ONLINE AJA-->
+                        <h2>Photographer</h2>
+                        <p>Capture moments in the form of photos using a digital or analog camera with photo editing techniques
+                        (Cropping and Rule of Thirds, Rotation, Applying layers, Correcting color and saturation, Sharpening photos).</p>
+                        <a href="port-photo.html">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-------------------Portofolio-------------->
+        <div id="portofolio">
+            <div class="container">
+                <h1 class="sub-title">My Portofolio</h1>
+                <div class="work">
+                <!----Network----->
+                    <div>
+                        <a target="_blank" href="#"><img src="images/bg_porto1.png" width="50px" height="50px"></a>
+                        <p class="work-header">My Network Engineering Software</p>
+                        <p>Software and Hardware Configuration on Mikrotik Routerboard and Cisco Hardware Configuration Through Software Called
+                        Cisco Packet Tracer.</p>
+                        <a class="work-link" target="_blank" href="work-mikrotik.html">Tap For Details</a>
+                    </div>    
+                <!----Design Graphics----->
+                    <div>
+                        <a target="_blank" href="#"><img src="images/bg_porto2.png" width="50px" height="50px"></a>
+                        <p class="work-header">My Design Graphic Software </p>
+                        <p>Perform a graphic design process and the like using editing or graphic creation software called Photoshop, Figma, Adobe
+                        Illustrator, Corel Draw.</p>
+                        <a class="work-link" target="_blank" href="work-designG.html">Tap For Details</a>
+                    </div>    
+                <!----Web Design----->
+                    <div>
+                        <a target="_blank" href="#"><img src="images/bg_porto3.png" width="50px" height="50px"></a>
+                        <p class="work-header">My Design Web Website</p>
+                        <p>Perform a website design process and the like using a website editing or creation platform called Wix, Wordpress, Canva.</p>
+                        <a class="work-link" target="_blank" href="work-designW.html">Tap For Details</a>
+                    </div>
+                <!----Photographer----->
+                    <div>
+                        <a target="_blank" href="#"><img src="images/bg_porto4.png" width="50px" height="50px"></a>
+                        <p class="work-header">My Gear To Take Photo</p>
+                        <p>Taking Photos Using Digital Camera Equipment and Using Photography Editing Using Adobe Lightroom.</p>
+                        <a class="work-link" target="_blank" href="work-fotograph.html">Tap For Details</a>
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <!--------------CONTACT---------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>Want to be closer to me? click the social media icon that connects directly with me.</p>
+                        <div class="social-media">
+                            <a href="https://wa.me/085731944486"><img src="logo/icon-whatsapp.png"></a>
+                            <a href="https://mail.google.com/mail/devanadi32@gmail.com"><img src="logo/icon-mail.png"></a>
+                            <a href="https://www.linkedin.com/in/moch-devan-putra-u-a-938491234/"><img src="logo/icon-linkedln.png"></a>
+                            <a href="https://www.instagram.com/devanadi32/"><img src="logo/icon-instagram.png"></a>
+                        </div>
+                        <p class="dowloand-cv"><a href="" class="btn">Dowloand CV</a></p>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button class="btn2" type="submit">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright© Devan. Made By Inspired <a href="https://youtu.be/0YFrGy_mzjY">Easy Tutorials</a> </p>
+            </div>
+        </div>
+        
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx_XWL-uzV49UsGUkZn3mlccCsBm5BFGzDNWQcq4rnX1SxZUUbF_Kdt4_R1CWNb1Az4eQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML= ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </body>
+</html>
